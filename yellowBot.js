@@ -31,6 +31,7 @@ bot.on("message", async (msg) => {
 
   if (msg.author.discriminator === "3046") {
     msg.channel.send("Lupo fraco");
+    return;
   }
 
   switch (args[0]) {
